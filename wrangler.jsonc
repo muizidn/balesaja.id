@@ -11,5 +11,15 @@
 	},
 	"observability": {
 		"enabled": true
+	},
+	"env": {
+		"production": {
+			"routes": [
+				{
+					"pattern": "balesaja.id",
+					"custom_domain": true
+				}
+			]
+		}
 	}
 }
