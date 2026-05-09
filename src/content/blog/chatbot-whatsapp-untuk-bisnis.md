@@ -17,6 +17,8 @@ Kalau kamu masih bingung harus memakai menu sederhana, n8n, custom development, 
 
 Untuk contoh per industri, lihat [CS AI murah untuk jasa travel](/blog/cs-ai-murah-untuk-jasa-travel/) dan [CS AI murah untuk bisnis umroh](/blog/cs-ai-murah-untuk-bisnis-umroh/).
 
+Jika chatbot akan dipakai untuk leads dari social media, lihat [customer journey dari social media ke WhatsApp](/blog/customer-journey-social-media-ke-whatsapp/).
+
 Jika kamu sudah masuk tahap membandingkan vendor, lihat [alternatif AI chatbot WhatsApp di Indonesia](/blog/alternatif-ai-chatbot-whatsapp-indonesia/).
 
 ## Apa itu chatbot WhatsApp?

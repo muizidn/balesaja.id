@@ -15,6 +15,8 @@ Untuk topik yang lebih spesifik, baca juga [bot WhatsApp dan bot WA](/blog/bot-w
 
 Jika bisnis kamu masih kecil atau ingin mulai murah, lihat juga [CS AI untuk bisnis UMKM](/blog/cs-ai-untuk-bisnis-umkm/) dan [CS AI murah untuk online shop](/blog/cs-ai-murah-untuk-online-shop/).
 
+Jika banyak chat datang dari Instagram, TikTok, atau iklan social media, baca juga [social media management ke WhatsApp](/blog/social-media-management-ke-whatsapp/) agar alur dari konten ke customer service lebih rapi.
+
 ## Kenapa WhatsApp penting untuk customer service?
 
 Pelanggan memilih WhatsApp karena cepat dan familiar. Mereka bisa bertanya tanpa membuka website, mengirim bukti pembayaran, mengirim foto masalah produk, atau menanyakan status pesanan langsung dari ponsel.

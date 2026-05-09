@@ -109,3 +109,5 @@ Balesaja bisa membantu menyiapkan pengiriman pesan yang lebih tertata, termasuk 
 Broadcast WhatsApp bisa membantu bisnis menjangkau pelanggan, tetapi harus dipakai dengan izin, segmentasi, dan frekuensi yang sehat.
 
 Untuk hasil terbaik, gabungkan broadcast dengan customer service yang rapi. Pesan massal mengundang respons, sistem otomatis membantu respons awal, lalu admin menangani percakapan yang membutuhkan manusia.
+
+Jika campaign dimulai dari konten social media, pastikan alurnya terhubung sampai WhatsApp. Panduannya ada di [social media to WhatsApp closing](/blog/social-media-to-whatsapp-closing/).

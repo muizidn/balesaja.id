@@ -21,6 +21,8 @@ Jika masih memilih pendekatan teknis, lihat [jenis-jenis AI chatbot untuk bisnis
 
 Untuk contoh penerapan yang lebih spesifik, kamu bisa membaca panduan [CS AI untuk bisnis UMKM](/blog/cs-ai-untuk-bisnis-umkm/), [CS AI murah untuk online shop](/blog/cs-ai-murah-untuk-online-shop/), [CS AI murah untuk jasa travel](/blog/cs-ai-murah-untuk-jasa-travel/), dan [CS AI murah untuk bisnis umroh](/blog/cs-ai-murah-untuk-bisnis-umroh/).
 
+Jika sumber chat paling banyak berasal dari komentar atau DM social media, baca juga [automation reply social media](/blog/automation-reply-social-media/).
+
 ## Apa yang dimaksud customer service awal?
 
 Customer service awal adalah tahap ketika pelanggan baru pertama kali menghubungi bisnis atau baru menyampaikan kebutuhan awal.
