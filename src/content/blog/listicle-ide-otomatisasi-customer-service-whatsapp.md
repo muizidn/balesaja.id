@@ -137,6 +137,36 @@ Pantau:
 
 Tanpa metrik, bisnis sulit tahu apa yang perlu diperbaiki.
 
+## Contoh cluster basis pengetahuan yang disetup di aplikasi
+
+Ide otomatisasi di atas bisa dikelompokkan menjadi basis pengetahuan agar AI tahu jenis jawaban yang harus diberikan untuk setiap situasi. Ini penting supaya AI tidak hanya cepat membalas, tetapi juga mengikuti proses bisnis yang benar.
+
+<blockquote class="kb-setup-card">
+	<p><span class="kb-label">Contoh setup di aplikasi</span></p>
+	<p class="kb-h2-example">## Cara jawab ketika pelanggan baru masuk</p>
+	<p><strong>Contoh pesan pelanggan:</strong> "Halo admin, mau tanya produknya."</p>
+	<p><strong>Instruksi untuk AI:</strong> Jawab dengan sapaan singkat sebagai asisten otomatis. Tanyakan kebutuhan pelanggan dan tawarkan pilihan bantuan seperti produk, harga, cara order, status pesanan, atau bicara dengan admin.</p>
+	<p><strong>Contoh jawaban:</strong> "Halo, terima kasih sudah menghubungi kami. Saya asisten otomatis yang bantu respons awal. Mau dibantu soal produk, harga, cara order, status pesanan, atau ingin bicara dengan admin?"</p>
+</blockquote>
+
+<blockquote class="kb-setup-card">
+	<p><span class="kb-label">Contoh setup di aplikasi</span></p>
+	<p class="kb-h2-example">## Cara jawab ketika lead datang dari campaign</p>
+	<p><strong>Contoh pesan pelanggan:</strong> "Halo, saya dari iklan Instagram. Mau tanya promo paketnya."</p>
+	<p><strong>Instruksi untuk AI:</strong> Akui sumber lead, minta kebutuhan utama, kota, dan budget jika relevan. Jangan langsung memaksa closing. Catat sumber sebagai Instagram Ads.</p>
+	<p><strong>Contoh jawaban:</strong> "Siap, terima kasih sudah datang dari promo Instagram kami. Boleh info paket yang diminati, kota domisili, dan kebutuhan utamanya? Nanti saya bantu arahkan ke info yang paling sesuai."</p>
+</blockquote>
+
+<blockquote class="kb-setup-card">
+	<p><span class="kb-label">Contoh setup di aplikasi</span></p>
+	<p class="kb-h2-example">## Cara jawab ketika ada komplain</p>
+	<p><strong>Contoh pesan pelanggan:</strong> "Barang saya belum sampai padahal sudah lewat estimasi."</p>
+	<p><strong>Instruksi untuk AI:</strong> Jawab dengan afirmasi dan empati. Minta nomor order atau nama pemesan. Jangan memberi keputusan refund, kompensasi, atau janji waktu pasti. Teruskan ke admin setelah data awal terkumpul.</p>
+	<p><strong>Contoh jawaban:</strong> "Mohon maaf ya, saya paham ini bikin tidak nyaman. Boleh kirim nomor order atau nama pemesan? Saya bantu teruskan ke admin agar bisa dicek status pengirimannya."</p>
+</blockquote>
+
+Balesaja bisa membantu mengubah ide-ide otomatisasi ini menjadi basis pengetahuan yang lebih lengkap, rapi, dan tidak ngawur. Hasilnya, AI punya instruksi yang jelas untuk menjawab, mencatat, bertanya ulang, dan handover sesuai kondisi percakapan.
+
 ## Kesimpulan
 
 Otomatisasi WhatsApp terbaik dimulai dari masalah yang paling sering terjadi. Jangan mulai dari semua fitur. Mulai dari satu alur yang benar-benar membantu pelanggan dan admin.

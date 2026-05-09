@@ -112,6 +112,28 @@ Misalnya:
 - Data sensitif
 - Workflow multi-role
 
+## Contoh cluster basis pengetahuan yang disetup di aplikasi
+
+Daftar tools di atas bisa diterjemahkan menjadi cluster basis pengetahuan agar AI tidak menjawab asal. Di aplikasi, cluster seperti ini membantu AI tahu sumber data mana yang boleh dipakai, kapan perlu bertanya ulang, dan kapan harus menyerahkan chat ke admin.
+
+<blockquote class="kb-setup-card">
+	<p><span class="kb-label">Contoh setup di aplikasi</span></p>
+	<p class="kb-h2-example">## Cara jawab ketika pelanggan bertanya integrasi</p>
+	<p><strong>Contoh pesan pelanggan:</strong> "Bisa terhubung ke CRM atau spreadsheet kami?"</p>
+	<p><strong>Instruksi untuk AI:</strong> Jawab hanya berdasarkan daftar integrasi yang sudah aktif. Jika integrasi belum ada di data, jangan menjanjikan bisa. Arahkan ke admin untuk pengecekan teknis.</p>
+	<p><strong>Contoh jawaban:</strong> "Untuk integrasi, saya perlu cek dulu tools yang saat ini aktif di sistem. Boleh info CRM atau spreadsheet yang digunakan? Saya bantu teruskan ke admin teknis agar jawabannya akurat."</p>
+</blockquote>
+
+<blockquote class="kb-setup-card">
+	<p><span class="kb-label">Contoh setup di aplikasi</span></p>
+	<p class="kb-h2-example">## Cara handover ke admin ketika AI tidak yakin</p>
+	<p><strong>Contoh pesan pelanggan:</strong> "Kalau saya mau custom alur khusus, bisa?"</p>
+	<p><strong>Instruksi untuk AI:</strong> Jika pertanyaan menyangkut custom workflow, data sensitif, negosiasi, refund, atau teknis yang tidak ada di basis pengetahuan, AI harus mengakui perlu dicek admin dan membuat ringkasan konteks.</p>
+	<p><strong>Contoh jawaban:</strong> "Bisa saya bantu teruskan ke admin karena kebutuhan custom perlu dicek detailnya. Saya catat dulu ya: pelanggan ingin membuat alur khusus. Boleh jelaskan proses yang ingin diotomatisasi?"</p>
+</blockquote>
+
+Balesaja bisa membantu menyusun cluster seperti ini secara lebih komprehensif: mulai dari data tools yang dipakai, batas jawaban AI, SOP handover, sampai integrasi yang aman. Dengan basis pengetahuan yang rapi, AI tidak perlu menebak-nebak dan bisa memaksimalkan instruksi yang diberikan.
+
 ## Kesimpulan
 
 Tools terbaik bukan yang paling banyak fiturnya, tetapi yang paling cocok dengan alur bisnis dan kapasitas tim.

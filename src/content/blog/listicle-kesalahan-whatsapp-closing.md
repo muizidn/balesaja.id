@@ -91,6 +91,28 @@ Jika tidak mengukur respons, follow-up, dan alasan gagal closing, bisnis sulit m
 
 Mulai dari metrik sederhana: jumlah leads, respons pertama, follow-up, closing, dan alasan tidak jadi.
 
+## Contoh cluster basis pengetahuan yang disetup di aplikasi
+
+Kesalahan closing biasanya terjadi karena AI atau admin tidak punya aturan yang cukup jelas. Basis pengetahuan bisa disusun untuk mencegah jawaban terlalu lambat, terlalu menjual, atau terlalu percaya diri.
+
+<blockquote class="kb-setup-card">
+	<p><span class="kb-label">Contoh setup di aplikasi</span></p>
+	<p class="kb-h2-example">## Cara jawab lead dari iklan tanpa hard-selling</p>
+	<p><strong>Contoh pesan pelanggan:</strong> "Saya klik iklan, mau tanya promo."</p>
+	<p><strong>Instruksi untuk AI:</strong> Sambut pelanggan, sebut konteks promo jika tersedia, lalu tanya kebutuhan. Jangan langsung menekan untuk beli dan jangan berpura-pura sebagai admin manusia.</p>
+	<p><strong>Contoh jawaban:</strong> "Terima kasih sudah menghubungi kami dari iklan promo. Saya asisten otomatis yang bantu respons awal. Boleh info promo yang dilihat dan kebutuhan utamanya? Nanti saya bantu arahkan ke info yang sesuai."</p>
+</blockquote>
+
+<blockquote class="kb-setup-card">
+	<p><span class="kb-label">Contoh setup di aplikasi</span></p>
+	<p class="kb-h2-example">## Cara mencatat status lead setelah percakapan</p>
+	<p><strong>Contoh pesan pelanggan:</strong> "Nanti saya kabari lagi ya."</p>
+	<p><strong>Instruksi untuk AI:</strong> Jangan mengejar dengan kalimat memaksa. Beri respons sopan, tawarkan bantuan lanjutan, lalu beri tag status lead sebagai perlu follow-up. Jika pelanggan menyebut alasan, catat alasan tersebut.</p>
+	<p><strong>Contoh jawaban:</strong> "Baik, silakan dipertimbangkan dulu. Kalau nanti ada yang ingin ditanyakan, saya siap bantu. Saya catat dulu ya supaya admin bisa follow-up dengan konteks yang sesuai."</p>
+</blockquote>
+
+Balesaja bisa membantu memperbaiki basis pengetahuan yang masih bolong: dari template jawaban, alur kualifikasi, aturan follow-up, sampai batas kapan AI wajib handover. Ini membuat AI lebih berguna karena instruksinya lengkap, bukan hanya disuruh membalas cepat.
+
 ## Kesimpulan
 
 Closing WhatsApp gagal bukan selalu karena produk atau harga. Sering kali masalahnya ada di respons, kualifikasi, follow-up, dan pencatatan.

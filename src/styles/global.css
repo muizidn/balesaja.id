@@ -20,6 +20,7 @@
 	--text-primary: #0f172a;
 	--text-secondary: #64748b;
 }
+
 body {
 	font-family: var(--font-atkinson), Inter, sans-serif;
 	margin: 0;
@@ -31,9 +32,11 @@ body {
 	line-height: 1.6;
 	scroll-padding-top: 150px;
 }
+
 main {
 	width: 100%;
 }
+
 h1,
 h2,
 h3,
@@ -44,66 +47,84 @@ h6 {
 	color: var(--text-primary);
 	line-height: 1.2;
 }
+
 h1 {
 	font-size: 3.052em;
 }
+
 h2 {
 	font-size: 2.441em;
 }
+
 h3 {
 	font-size: 1.953em;
 }
+
 h4 {
 	font-size: 1.563em;
 }
+
 h5 {
 	font-size: 1.25em;
 }
+
 strong,
 b {
 	font-weight: 700;
 }
+
 a {
 	color: var(--accent);
 }
+
 a:hover {
 	color: var(--accent-dark);
 }
+
 p {
 	margin-bottom: 1em;
 }
+
 .prose p {
 	margin-bottom: 2em;
 }
+
 textarea {
 	width: 100%;
 	font-size: 16px;
 }
+
 input {
 	font-size: 16px;
 }
+
 table {
 	width: 100%;
 }
+
 img {
 	max-width: 100%;
 	height: auto;
 	border-radius: 8px;
 }
+
 code {
 	padding: 2px 5px;
 	background-color: rgb(var(--gray-light));
 	border-radius: 4px;
 }
+
 pre {
 	padding: 1.5em;
 	border-radius: 8px;
 	background: #1e293b !important;
 	color: #f8fafc !important;
 }
-pre > code {
+
+pre>code {
 	all: unset;
 }
+
 blockquote {
 	border-left: 4px solid var(--accent);
 	padding: 0 0 0 20px;
@@ -111,16 +132,64 @@ blockquote {
 	font-size: 1.333em;
 	color: var(--text-secondary);
 }
+
+blockquote.kb-setup-card {
+	border: 1px solid #dbeafe;
+	border-left: 4px solid var(--accent);
+	padding: 20px;
+	margin: 28px 0;
+	background: #f8fafc;
+	color: #334155;
+	font-size: 1rem;
+	line-height: 1.65;
+}
+
+blockquote.kb-setup-card p,
+blockquote.kb-setup-card ul {
+	margin: 0 0 12px;
+}
+
+blockquote.kb-setup-card p:last-child,
+blockquote.kb-setup-card ul:last-child {
+	margin-bottom: 0;
+}
+
+blockquote.kb-setup-card .kb-h2-example {
+	color: #0f172a;
+	font-size: 1.12rem;
+	font-weight: 700;
+	line-height: 1.35;
+}
+
+blockquote.kb-setup-card .kb-label {
+	display: inline-flex;
+	width: fit-content;
+	margin-bottom: 12px;
+	padding: 4px 10px;
+	border-radius: 999px;
+	background: #dbeafe;
+	color: #1d4ed8;
+	font-size: 0.78rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+}
+
+blockquote.kb-setup-card strong {
+	color: #0f172a;
+}
+
 hr {
 	border: none;
 	border-top: 1px solid rgb(var(--gray-light));
 }
+
 @media (max-width: 720px) {
 	body {
 		font-size: 17px;
 	}
-	main {
-	}
+
+	main {}
 }
 
 .sr-only {

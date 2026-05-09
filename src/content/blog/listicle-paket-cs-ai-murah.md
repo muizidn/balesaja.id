@@ -78,6 +78,28 @@ Saat chat makin ramai, sistem harus bisa berkembang:
 - Tambah WhatsApp Business API
 - Tambah dashboard
 
+## Contoh cluster basis pengetahuan yang disetup di aplikasi
+
+Paket CS AI murah tetap perlu basis pengetahuan yang jelas. Bedanya, cluster awal dibuat ringkas dulu: fokus pada pertanyaan paling sering, batas jawaban AI, dan jalur ke admin.
+
+<blockquote class="kb-setup-card">
+	<p><span class="kb-label">Contoh setup di aplikasi</span></p>
+	<p class="kb-h2-example">## Cara jawab ketika pelanggan tanya harga</p>
+	<p><strong>Contoh pesan pelanggan:</strong> "Harganya berapa ya?"</p>
+	<p><strong>Instruksi untuk AI:</strong> Jawab hanya berdasarkan daftar harga resmi di basis pengetahuan. Jika produk atau paket belum jelas, tanyakan dulu produk yang dimaksud. Jangan mengarang harga, diskon, atau promo.</p>
+	<p><strong>Contoh jawaban:</strong> "Boleh info produk atau paket yang ingin ditanyakan? Setelah itu saya bantu cek harga yang sesuai dari daftar resmi kami."</p>
+</blockquote>
+
+<blockquote class="kb-setup-card">
+	<p><span class="kb-label">Contoh setup di aplikasi</span></p>
+	<p class="kb-h2-example">## Cara minta data awal tanpa terasa menginterogasi</p>
+	<p><strong>Contoh pesan pelanggan:</strong> "Saya minat, tapi mau tanya-tanya dulu."</p>
+	<p><strong>Instruksi untuk AI:</strong> Minta data paling penting saja: nama, kebutuhan, kota, dan produk yang diminati. Gunakan bahasa ringan. Jika pelanggan belum siap membeli, jangan menekan untuk checkout.</p>
+	<p><strong>Contoh jawaban:</strong> "Boleh banget. Supaya saya bisa bantu lebih tepat, boleh info nama, kota, dan produk atau layanan yang sedang diminati?"</p>
+</blockquote>
+
+Balesaja bisa membantu membuat basis pengetahuan versi ringan dulu, lalu mengembangkannya saat bisnis butuh upgrade. Yang penting, AI punya batas jelas sejak awal sehingga paket murah tetap berguna dan tidak menghasilkan jawaban yang ngawur.
+
 ## Kesimpulan
 
 Paket CS AI murah yang baik bukan yang fiturnya paling banyak, tetapi yang membantu masalah paling nyata: respons awal, FAQ, handover, data pelanggan, dan follow-up.

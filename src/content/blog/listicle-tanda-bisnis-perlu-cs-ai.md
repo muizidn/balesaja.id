@@ -59,6 +59,28 @@ Tetap beri ruang personalisasi agar tidak terdengar kaku.
 
 Jika tidak ada data waktu respons, jumlah leads, follow-up, dan closing, sulit tahu apa yang perlu diperbaiki.
 
+## Contoh cluster basis pengetahuan yang disetup di aplikasi
+
+Tanda-tanda di atas bisa menjadi dasar cluster basis pengetahuan. Tujuannya agar AI tidak hanya menjawab pesan, tetapi juga membantu bisnis membaca konteks chat dan mengarahkan percakapan dengan benar.
+
+<blockquote class="kb-setup-card">
+	<p><span class="kb-label">Contoh setup di aplikasi</span></p>
+	<p class="kb-h2-example">## Cara jawab pertanyaan yang sering berulang</p>
+	<p><strong>Contoh pesan pelanggan:</strong> "Masih ready? Cara ordernya gimana?"</p>
+	<p><strong>Instruksi untuk AI:</strong> Jawab stok dan cara order hanya dari data resmi. Jika stok tidak tersedia di basis pengetahuan, minta produk yang dimaksud lalu arahkan ke admin untuk pengecekan.</p>
+	<p><strong>Contoh jawaban:</strong> "Boleh info produk yang dimaksud? Untuk cara order, pelanggan bisa pilih produk, kirim data pemesanan, lalu admin akan bantu konfirmasi stok dan pembayaran."</p>
+</blockquote>
+
+<blockquote class="kb-setup-card">
+	<p><span class="kb-label">Contoh setup di aplikasi</span></p>
+	<p class="kb-h2-example">## Cara membedakan chat sales, support, dan komplain</p>
+	<p><strong>Contoh pesan pelanggan:</strong> "Saya mau beli paket A" atau "Pesanan saya salah kirim."</p>
+	<p><strong>Instruksi untuk AI:</strong> Jika pelanggan ingin membeli, beri tag sales dan tanyakan kebutuhan dasar. Jika pelanggan menyebut salah kirim, rusak, refund, kecewa, atau belum sampai, beri tag komplain dan prioritaskan admin.</p>
+	<p><strong>Contoh jawaban untuk komplain:</strong> "Mohon maaf atas kendalanya. Boleh kirim nomor order dan detail masalahnya? Saya bantu teruskan ke admin agar segera dicek."</p>
+</blockquote>
+
+Balesaja bisa membantu mengubah tanda-tanda operasional ini menjadi instruksi AI yang lebih lengkap: FAQ, tagging, prioritas chat, handover, dan metrik dasar. Dengan begitu AI bukan sekadar auto reply, tetapi bagian dari sistem customer service yang lebih rapi.
+
 ## Kesimpulan
 
 CS AI bukan hanya untuk bisnis besar. Bisnis kecil pun bisa mulai dari automation sederhana jika chat mulai ramai dan admin kewalahan.

@@ -143,6 +143,28 @@ Catat pola kenapa pelanggan tidak jadi:
 
 Data ini membantu memperbaiki konten, penawaran, dan customer service.
 
+## Contoh cluster basis pengetahuan yang disetup di aplikasi
+
+Untuk closing WhatsApp, basis pengetahuan perlu membantu AI membalas dengan arah yang jelas tanpa berubah menjadi sales yang memaksa. Cluster dibuat berdasarkan tahap percakapan: respons awal, kualifikasi, objection, follow-up, dan handover.
+
+<blockquote class="kb-setup-card">
+	<p><span class="kb-label">Contoh setup di aplikasi</span></p>
+	<p class="kb-h2-example">## Cara jawab ketika pelanggan minta rekomendasi</p>
+	<p><strong>Contoh pesan pelanggan:</strong> "Paket mana yang paling cocok buat saya?"</p>
+	<p><strong>Instruksi untuk AI:</strong> Jangan langsung kirim katalog panjang. Tanyakan kebutuhan, budget, timeline, jumlah orang atau quantity, lokasi, dan kendala utama sesuai jenis bisnis. Beri rekomendasi hanya setelah konteks cukup.</p>
+	<p><strong>Contoh jawaban:</strong> "Bisa saya bantu arahkan. Supaya rekomendasinya tepat, boleh info kebutuhan utama, budget, rencana pemakaian kapan, dan jumlah orang atau quantity yang dibutuhkan?"</p>
+</blockquote>
+
+<blockquote class="kb-setup-card">
+	<p><span class="kb-label">Contoh setup di aplikasi</span></p>
+	<p class="kb-h2-example">## Cara jawab ketika pelanggan bilang mahal</p>
+	<p><strong>Contoh pesan pelanggan:</strong> "Mahal ya, saya pikir-pikir dulu."</p>
+	<p><strong>Instruksi untuk AI:</strong> Jawab dengan tenang, jangan defensif, jangan memaksa. Tanyakan bagian yang membuat pelanggan ragu. Jelaskan value berdasarkan data resmi. Jangan memberi diskon khusus tanpa admin.</p>
+	<p><strong>Contoh jawaban:</strong> "Tidak apa-apa, boleh dipertimbangkan dulu. Kalau boleh tahu, yang membuat ragu lebih ke budget, kebutuhan, atau masih ingin bandingkan pilihan? Saya bisa bantu jelaskan opsi yang paling sesuai."</p>
+</blockquote>
+
+Balesaja bisa membantu membuat basis pengetahuan closing yang lebih tajam: pertanyaan kualifikasi, template rekomendasi, objection handling, status lead, dan kapan AI harus berhenti. Dengan instruksi yang rapi, AI bisa membantu admin tanpa membuat percakapan terasa agresif.
+
 ## Kesimpulan
 
 Closing WhatsApp yang baik bukan sekadar mengejar pelanggan. Kuncinya adalah respons cepat, kualifikasi yang tepat, rekomendasi yang relevan, follow-up sopan, dan pencatatan yang rapi.
