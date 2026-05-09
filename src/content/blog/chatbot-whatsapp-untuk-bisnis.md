@@ -13,6 +13,8 @@ Panduan ini membantumu memahami kapan automation dibutuhkan, bagaimana membuat a
 
 Jika kamu masih merapikan fondasinya, mulai dari [WhatsApp untuk customer service](/blog/whatsapp-untuk-customer-service/). Jika ingin membuat alur percakapan, buka [template alur chatbot WhatsApp](/blog/template-alur-chatbot-whatsapp/). Jika butuh memahami peran AI, baca [AI untuk customer service awal](/blog/ai-untuk-customer-service-awal/).
 
+Kalau kamu masih bingung harus memakai menu sederhana, n8n, custom development, atau AI yang memahami bahasa bebas, baca juga [jenis-jenis AI chatbot untuk bisnis](/blog/jenis-jenis-ai-chatbot-untuk-bisnis/).
+
 ## Apa itu chatbot WhatsApp?
 
 Chatbot WhatsApp adalah sistem otomatis yang merespons pesan pelanggan melalui WhatsApp. Responsnya bisa berbentuk menu sederhana, jawaban berbasis kata kunci, alur tanya jawab, atau percakapan yang dibantu AI.

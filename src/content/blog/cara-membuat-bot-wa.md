@@ -13,6 +13,8 @@ Ketika bisnis mulai menerima banyak chat berulang, pertanyaan berikutnya biasany
 
 Panduan ini membantumu menyusun alur dari sisi kebutuhan bisnis: apa yang perlu dijawab otomatis, kapan admin harus mengambil alih, dan tools apa yang masuk akal dipakai. Jika kamu ingin memahami konsepnya dulu, baca [bot WhatsApp dan bot WA](/blog/bot-whatsapp-bot-wa/).
 
+Jika belum yakin harus memakai platform siap pakai, n8n, custom implementation, atau AI natural language, mulai dari [jenis-jenis AI chatbot untuk bisnis](/blog/jenis-jenis-ai-chatbot-untuk-bisnis/).
+
 ## 1. Tentukan tujuan automation
 
 Jangan mulai dari tools. Mulai dari masalah yang ingin diselesaikan.

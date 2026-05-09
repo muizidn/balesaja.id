@@ -11,6 +11,8 @@ Gunakan template ini sebagai titik awal, lalu sesuaikan dengan produk, gaya baha
 
 Jika kamu ingin membuat bot WA dari nol, gunakan panduan [cara membuat bot WA](/blog/cara-membuat-bot-wa/) sebagai pendamping setelah memahami template alur di bawah ini.
 
+Untuk memilih bentuk implementasinya, baca juga [jenis-jenis AI chatbot untuk bisnis](/blog/jenis-jenis-ai-chatbot-untuk-bisnis/).
+
 ## Prinsip sebelum membuat alur
 
 Sebelum menulis pesan chatbot, tentukan dulu hal berikut:

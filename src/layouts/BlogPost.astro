@@ -27,6 +27,10 @@ const {
 // Filter headings to show only depth 2 and 3 for the TOC
 const toc = headings.filter((h) => h.depth > 1 && h.depth < 4);
 
+// Generate dynamic OG image URL
+// Since the file is /blog/[slug]/index.astro, the image is at ./og.png
+const ogImage = `${Astro.url.pathname.replace(/\/$/, '')}/og.png`;
+
 const articleSchema = {
 	"@context": "https://schema.org",
 	"@type": "Article",
@@ -57,7 +61,7 @@ const articleSchema = {
 
 <html lang="id" style="scroll-behavior: smooth;">
 	<head>
-		<BaseHead title={title} description={description} image={heroImage} />
+		<BaseHead title={title} description={description} image={ogImage} />
 		<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 		<style>
 			main {

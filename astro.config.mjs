@@ -36,5 +36,18 @@ export default defineConfig({
       },
 	],
 
-  adapter: cloudflare(),
+  adapter: cloudflare({
+      platformProxy: {
+          enabled: true,
+      },
+  }),
+  
+  vite: {
+    ssr: {
+        external: ['node:fs', 'node:path', 'node:process'],
+    },
+    optimizeDeps: {
+        exclude: ['@resvg/resvg-wasm', 'satori'],
+    },
+  }
 });

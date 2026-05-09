@@ -17,6 +17,8 @@ Jika kamu baru mulai dari konteks WhatsApp, baca dulu [chatbot WhatsApp untuk bi
 
 Kalau tujuanmu adalah membuat bot dari nol, lanjutkan juga ke [cara membuat bot WA](/blog/cara-membuat-bot-wa/). Jika butuh integrasi resmi untuk skala lebih besar, lihat [WhatsApp Business API Indonesia](/blog/whatsapp-business-api-indonesia/).
 
+Jika masih memilih pendekatan teknis, lihat [jenis-jenis AI chatbot untuk bisnis](/blog/jenis-jenis-ai-chatbot-untuk-bisnis/) agar lebih mudah membandingkan rule-based, n8n, custom implementation, natural language, dan hybrid.
+
 ## Apa yang dimaksud customer service awal?
 
 Customer service awal adalah tahap ketika pelanggan baru pertama kali menghubungi bisnis atau baru menyampaikan kebutuhan awal.
