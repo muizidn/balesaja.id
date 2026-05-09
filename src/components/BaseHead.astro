@@ -10,11 +10,35 @@ interface Props {
 	title: string;
 	description: string;
 	image?: string | ImageMetadata;
+	canonical?: string;
+	noindex?: boolean;
+	breadcrumbs?: { name: string; item: string }[];
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const { 
+	title, 
+	description, 
+	image = '/og-image.png',
+	canonical,
+	noindex = false,
+	breadcrumbs
+} = Astro.props;
 
-const { title, description, image = '/og-image.png' } = Astro.props;
+// Generate BreadcrumbList Schema
+const breadcrumbSchema = breadcrumbs ? {
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": breadcrumbs.map((b, i) => ({
+		"@type": "ListItem",
+		"position": i + 1,
+		"name": b.name,
+		"item": new URL(b.item, Astro.site)
+	}))
+} : null;
+
+const canonicalURL = canonical 
+	? new URL(canonical, Astro.site) 
+	: new URL(Astro.url.pathname, Astro.site);
 
 // Resolve image URL
 const resolvedImage = typeof image === 'string' 
@@ -52,7 +76,13 @@ const websiteSchema = {
 	href={new URL('rss.xml', Astro.site)}
 />
 <meta name="generator" content={Astro.generator} />
-<meta name="robots" content="index,follow" />
+
+<!-- Robots Meta -->
+{noindex ? (
+	<meta name="robots" content="noindex,nofollow" />
+) : (
+	<meta name="robots" content="index,follow" />
+)}
 
 <Font cssVariable="--font-atkinson" preload />
 
@@ -81,3 +111,4 @@ const websiteSchema = {
 <!-- Structured Data -->
 <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+{breadcrumbSchema && <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />}

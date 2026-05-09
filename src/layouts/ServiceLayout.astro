@@ -10,12 +10,30 @@ interface Props {
 }
 
 const { title, description, kicker = "Layanan Kami" } = Astro.props;
+
+const serviceSchema = {
+	"@context": "https://schema.org",
+	"@type": "Service",
+	"name": title,
+	"description": description,
+	"provider": {
+		"@type": "Organization",
+		"name": "Balesaja",
+		"url": "https://balesaja.id"
+	}
+};
+
+const breadcrumbs = [
+	{ name: 'Home', item: '/' },
+	{ name: 'Layanan', item: Astro.url.pathname }
+];
 ---
 
 <!doctype html>
 <html lang="id">
 	<head>
-		<BaseHead title={`${title} | Balesaja.id`} description={description} />
+		<BaseHead title={`${title} | Balesaja.id`} description={description} breadcrumbs={breadcrumbs} />
+		<script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
 		<style>
 			main {
 				padding: 80px 0;
@@ -116,7 +134,8 @@ const { title, description, kicker = "Layanan Kami" } = Astro.props;
 				<div class="cta-box">
 					<h2>Siap Memulai?</h2>
 					<p>Konsultasikan kebutuhan bisnis Anda dengan tim ahli kami secara gratis.</p>
-					<a href="https://wa.me/yournumber" class="btn">Hubungi via WhatsApp</a>
+					<a href="https://wa.me/6282243905005?text=Halo%20Balesaja,%20saya%20ingin%20tanya%20tentang%20layanan%20WhatsApp%20AI" class="btn">Hubungi via WhatsApp</a>
+
 				</div>
 			</div>
 		</main>

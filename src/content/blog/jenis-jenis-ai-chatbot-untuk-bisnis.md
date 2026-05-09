@@ -9,6 +9,13 @@ ctaTitle: 'Belum yakin jenis chatbot mana yang cocok?'
 ctaDescription: 'Balesaja bisa membantu membaca kebutuhan bisnis Anda, lalu memilih pendekatan chatbot yang paling masuk akal: rule-based, n8n, custom, natural language, atau hybrid.'
 ctaLink: '/'
 ctaButton: 'Diskusi dengan Balesaja'
+faq:
+  - question: 'Apa bedanya rule-based chatbot dengan natural language chatbot?'
+    answer: 'Rule-based chatbot bekerja berdasarkan aturan kaku atau pilihan menu yang sudah ditentukan. Sementara natural language chatbot menggunakan AI untuk memahami pesan bebas yang diketik oleh pelanggan.'
+  - question: 'Kapan bisnis sebaiknya menggunakan n8n untuk chatbot?'
+    answer: 'n8n sebaiknya digunakan ketika chatbot perlu terhubung ke banyak sistem eksternal seperti CRM, spreadsheet, atau API pihak ketiga secara otomatis tanpa harus membangun sistem dari nol.'
+  - question: 'Apakah chatbot bisa menggantikan admin manusia sepenuhnya?'
+    answer: 'Tidak disarankan. Chatbot paling efektif digunakan untuk membantu fase awal layanan (menjawab pertanyaan umum, filter kebutuhan), sementara kasus kompleks seperti komplain atau refund tetap sebaiknya ditangani oleh admin manusia.'
 ---
 
 Tidak semua AI chatbot dibuat dengan cara yang sama. Ada chatbot sederhana berbasis aturan, ada yang dibangun memakai n8n atau automation workflow, ada yang dibuat custom, dan ada yang memahami bahasa natural dengan bantuan AI.

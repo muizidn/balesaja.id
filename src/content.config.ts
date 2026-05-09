@@ -25,6 +25,10 @@ const blog = defineCollection({
 			ctaDescription: z.string().optional(),
 			ctaLink: z.string().optional(),
 			ctaButton: z.string().optional(),
+			faq: z.array(z.object({
+				question: z.string(),
+				answer: z.string(),
+			})).optional(),
 		}),
 });
 
