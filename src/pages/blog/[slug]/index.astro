@@ -20,6 +20,6 @@ if (!post) {
 const { Content, headings } = await render(post);
 ---
 
-<BlogPost {...post.data} headings={headings}>
+<BlogPost {...post} headings={headings}>
 	<Content />
 </BlogPost>
