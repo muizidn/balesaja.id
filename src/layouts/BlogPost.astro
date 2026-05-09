@@ -17,6 +17,7 @@ const {
 	pubDate, 
 	updatedDate, 
 	headings,
+	heroImage,
 	ctaTitle,
 	ctaDescription,
 	ctaLink,
@@ -56,7 +57,7 @@ const articleSchema = {
 
 <html lang="id" style="scroll-behavior: smooth;">
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead title={title} description={description} image={heroImage} />
 		<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 		<style>
 			main {
