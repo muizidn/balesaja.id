@@ -1,0 +1,125 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+	title: string;
+	description: string;
+	kicker?: string;
+}
+
+const { title, description, kicker = "Layanan Kami" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="id">
+	<head>
+		<BaseHead title={`${title} | Balesaja.id`} description={description} />
+		<style>
+			main {
+				padding: 80px 0;
+			}
+			.service-hero {
+				text-align: center;
+				max-width: 800px;
+				margin: 0 auto 80px;
+				padding: 0 20px;
+			}
+			.kicker {
+				display: block;
+				color: #2563eb;
+				font-weight: 800;
+				font-size: 0.9rem;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				margin-bottom: 16px;
+			}
+			h1 {
+				font-size: clamp(2.5rem, 5vw, 4rem);
+				font-weight: 900;
+				line-height: 1.1;
+				margin: 0 0 24px;
+				color: #0f172a;
+			}
+			.lede {
+				font-size: 1.25rem;
+				color: #64748b;
+				line-height: 1.6;
+			}
+			.content-section {
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 0 20px;
+				font-size: 1.15rem;
+				line-height: 1.8;
+				color: #334155;
+			}
+			.content-section :global(h2) {
+				font-size: 2rem;
+				font-weight: 800;
+				color: #0f172a;
+				margin: 48px 0 24px;
+			}
+			.content-section :global(ul) {
+				margin: 24px 0;
+				padding-left: 24px;
+			}
+			.content-section :global(li) {
+				margin-bottom: 12px;
+			}
+			.cta-box {
+				background: #f8fafc;
+				border: 1px solid rgba(0,0,0,0.05);
+				border-radius: 24px;
+				padding: 48px;
+				text-align: center;
+				margin-top: 80px;
+			}
+			.cta-box h2 {
+				margin-top: 0 !important;
+			}
+			.btn {
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				min-height: 54px;
+				padding: 0 32px;
+				background: #2563eb;
+				color: #ffffff;
+				border-radius: 12px;
+				font-size: 1.1rem;
+				font-weight: 700;
+				text-decoration: none;
+				transition: all 0.2s ease;
+				box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.4);
+			}
+			.btn:hover {
+				background: #1d4ed8;
+				transform: translateY(-2px);
+				box-shadow: 0 12px 30px -5px rgba(37, 99, 235, 0.5);
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="service-hero">
+				<span class="kicker">{kicker}</span>
+				<h1>{title}</h1>
+				<p class="lede">{description}</p>
+			</section>
+			
+			<div class="content-section">
+				<slot />
+				
+				<div class="cta-box">
+					<h2>Siap Memulai?</h2>
+					<p>Konsultasikan kebutuhan bisnis Anda dengan tim ahli kami secara gratis.</p>
+					<a href="https://wa.me/yournumber" class="btn">Hubungi via WhatsApp</a>
+				</div>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

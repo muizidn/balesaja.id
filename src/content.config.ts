@@ -14,6 +14,17 @@ const blog = defineCollection({
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
 			heroImage: z.optional(image()),
+			// SEO additions
+			author: z.string().default('Balesaja'),
+			tags: z.array(z.string()).default([]),
+			category: z.string().optional(),
+			canonical: z.string().url().optional(),
+			noindex: z.boolean().default(false),
+			// CTA override
+			ctaTitle: z.string().optional(),
+			ctaDescription: z.string().optional(),
+			ctaLink: z.string().optional(),
+			ctaButton: z.string().optional(),
 		}),
 });
 

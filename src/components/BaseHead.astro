@@ -16,6 +16,23 @@ interface Props {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const { title, description, image = FallbackImage } = Astro.props;
+
+// Schema.org data
+const organizationSchema = {
+	"@context": "https://schema.org",
+	"@type": "Organization",
+	"name": "Balesaja",
+	"url": "https://balesaja.id",
+	"logo": new URL('/favicon.svg', Astro.site),
+	"description": "Setup WhatsApp Business dengan AI customer service, bot WA, broadcast WhatsApp, dan white-label untuk bisnis dan agensi."
+};
+
+const websiteSchema = {
+	"@context": "https://schema.org",
+	"@type": "WebSite",
+	"name": "Balesaja.id",
+	"url": "https://balesaja.id"
+};
 ---
 
 <!-- Global Metadata -->
@@ -31,6 +48,7 @@ const { title, description, image = FallbackImage } = Astro.props;
 	href={new URL('rss.xml', Astro.site)}
 />
 <meta name="generator" content={Astro.generator} />
+<meta name="robots" content="index,follow" />
 
 <Font cssVariable="--font-atkinson" preload />
 
@@ -55,3 +73,7 @@ const { title, description, image = FallbackImage } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image.src, Astro.url)} />
+
+<!-- Structured Data -->
+<script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
