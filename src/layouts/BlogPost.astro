@@ -1,56 +1,163 @@
 ---
-import { Image } from 'astro:assets';
+import type { MarkdownHeading } from 'astro';
 import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 
-type Props = CollectionEntry<'blog'>['data'];
+type Props = CollectionEntry<'blog'>['data'] & {
+	headings: MarkdownHeading[];
+};
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, headings } = Astro.props;
+
+// Filter headings to show only depth 2 and 3 for the TOC
+const toc = headings.filter((h) => h.depth > 1 && h.depth < 4);
 ---
 
-<html lang="en">
+<html lang="id" style="scroll-behavior: smooth;">
 	<head>
 		<BaseHead title={title} description={description} />
 		<style>
 			main {
-				width: calc(100% - 2em);
-				max-width: 100%;
-				margin: 0;
+				width: 100vw;
+				margin-left: calc(-50vw + 50%);
+				margin-right: calc(-50vw + 50%);
+				padding: 80px 0;
 			}
-			.hero-image {
+			.content-layout {
+				display: grid;
+				grid-template-columns: 1fr min(720px, calc(100% - 40px)) 1fr;
 				width: 100%;
-			}
-			.hero-image img {
-				display: block;
-				margin: 0 auto;
-				border-radius: 12px;
-				box-shadow: var(--box-shadow);
+				align-items: start;
 			}
 			.prose {
-				width: 720px;
-				max-width: calc(100% - 2em);
-				margin: auto;
-				padding: 1em;
-				color: rgb(var(--gray-dark));
+				grid-column: 2;
+				width: 100%;
+				color: #334155;
+				font-size: 1.15rem;
+				line-height: 1.8;
 			}
 			.title {
-				margin-bottom: 1em;
-				padding: 1em 0;
+				margin-bottom: 48px;
 				text-align: center;
-				line-height: 1;
 			}
 			.title h1 {
-				margin: 0 0 0.5em 0;
+				margin: 0 0 16px 0;
+				font-size: clamp(2.5rem, 5vw, 3.5rem);
+				font-weight: 900;
+				color: #0f172a;
+				line-height: 1.1;
 			}
 			.date {
-				margin-bottom: 0.5em;
-				color: rgb(var(--gray));
+				margin-bottom: 12px;
+				color: #64748b;
+				font-weight: 600;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				font-size: 0.9rem;
 			}
 			.last-updated-on {
 				font-style: italic;
+				font-size: 0.9rem;
+				margin-top: 8px;
+				color: #94a3b8;
+			}
+			
+			/* TOC Sidebar Styles */
+			.toc-sidebar {
+				grid-column: 3;
+				position: sticky;
+				top: 120px;
+				width: 280px;
+				padding-left: 48px;
+				height: fit-content;
+			}
+			.toc-title {
+				font-size: 0.85rem;
+				font-weight: 800;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				color: #0f172a;
+				margin-bottom: 20px;
+				padding-bottom: 12px;
+				border-bottom: 1px solid rgba(0,0,0,0.05);
+			}
+			.toc-list {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+				display: flex;
+				flex-direction: column;
+				gap: 12px;
+			}
+			.toc-item a {
+				text-decoration: none;
+				color: #64748b;
+				font-size: 0.9rem;
+				line-height: 1.4;
+				transition: color 0.2s ease;
+				display: block;
+			}
+			.toc-item a:hover {
+				color: #2563eb;
+			}
+			.prose :global(h2),
+			.prose :global(h3) {
+				scroll-margin-top: 180px;
+			}
+
+			.depth-3 {
+				padding-left: 16px;
+				font-size: 0.85rem;
+			}
+
+			@media (max-width: 1300px) {
+				.toc-sidebar {
+					width: 240px;
+					padding-left: 32px;
+				}
+			}
+
+			@media (max-width: 1100px) {
+				.content-layout {
+					grid-template-columns: 1fr 280px;
+					max-width: 1000px;
+					margin: 0 auto;
+					padding: 0 40px;
+				}
+				.prose {
+					grid-column: 1;
+				}
+				.toc-sidebar {
+					grid-column: 2;
+					padding-left: 0;
+				}
+				.title {
+					text-align: left;
+				}
+			}
+
+			@media (max-width: 960px) {
+				.content-layout {
+					grid-template-columns: 1fr;
+					gap: 40px;
+				}
+				.toc-sidebar {
+					display: none;
+				}
+				.title {
+					text-align: center;
+				}
+				.prose {
+					margin: 0 auto;
+				}
+			}
+			@media (max-width: 720px) {
+				main {
+					padding: 40px 0;
+				}
 			}
 		</style>
 	</head>
@@ -59,25 +166,39 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<Header />
 		<main>
 			<article>
-				<div class="hero-image">
-					{heroImage && <Image width={1020} height={510} src={heroImage} alt="" />}
-				</div>
-				<div class="prose">
-					<div class="title">
-						<div class="date">
-							<FormattedDate date={pubDate} />
-							{
-								updatedDate && (
-									<div class="last-updated-on">
-										Last updated on <FormattedDate date={updatedDate} />
-									</div>
-								)
-							}
+				<div class="content-layout">
+					<!-- Empty div to balance the left side for centering -->
+					<div class="left-spacer" aria-hidden="true"></div>
+
+					<div class="prose">
+						<div class="title">
+							<div class="date">
+								<FormattedDate date={pubDate} />
+								{
+									updatedDate && (
+										<div class="last-updated-on">
+											Terakhir diperbarui pada <FormattedDate date={updatedDate} />
+										</div>
+									)
+								}
+							</div>
+							<h1>{title}</h1>
 						</div>
-						<h1>{title}</h1>
-						<hr />
+						<slot />
 					</div>
-					<slot />
+
+					<aside class="toc-sidebar">
+						<nav>
+							<div class="toc-title">Daftar Isi</div>
+							<ul class="toc-list">
+								{toc.map((heading) => (
+									<li class={`toc-item depth-${heading.depth}`}>
+										<a href={`#${heading.slug}`}>{heading.text}</a>
+									</li>
+								))}
+							</ul>
+						</nav>
+					</aside>
 				</div>
 			</article>
 		</main>
