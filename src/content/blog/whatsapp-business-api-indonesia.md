@@ -105,3 +105,5 @@ Balesaja bisa membantu menyiapkan API agar lebih siap dipakai tim customer servi
 WhatsApp Business API cocok untuk bisnis yang sudah membutuhkan automation, banyak admin, integrasi sistem, dan pengiriman pesan yang lebih terkontrol.
 
 Jika kebutuhanmu masih sederhana, mulai dari [bot WhatsApp](/blog/bot-whatsapp-bot-wa/) dan [WhatsApp Business Web](/blog/whatsapp-business-web/). Jika chat sudah ramai dan butuh struktur tim, lanjutkan ke API dan helpdesk.
+
+Jika sedang membandingkan vendor WhatsApp automation dan AI customer service, baca [alternatif AI chatbot WhatsApp di Indonesia](/blog/alternatif-ai-chatbot-whatsapp-indonesia/).

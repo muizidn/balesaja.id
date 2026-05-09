@@ -13,6 +13,8 @@ Panduan ini membantumu membangun customer service WhatsApp yang lebih responsif.
 
 Untuk topik yang lebih spesifik, baca juga [bot WhatsApp dan bot WA](/blog/bot-whatsapp-bot-wa/), [WhatsApp Business Web](/blog/whatsapp-business-web/), dan [WhatsApp CRM untuk helpdesk](/blog/whatsapp-crm-helpdesk/).
 
+Jika bisnis kamu masih kecil atau ingin mulai murah, lihat juga [CS AI untuk bisnis UMKM](/blog/cs-ai-untuk-bisnis-umkm/) dan [CS AI murah untuk online shop](/blog/cs-ai-murah-untuk-online-shop/).
+
 ## Kenapa WhatsApp penting untuk customer service?
 
 Pelanggan memilih WhatsApp karena cepat dan familiar. Mereka bisa bertanya tanpa membuka website, mengirim bukti pembayaran, mengirim foto masalah produk, atau menanyakan status pesanan langsung dari ponsel.

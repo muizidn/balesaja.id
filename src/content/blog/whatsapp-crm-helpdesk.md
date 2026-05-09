@@ -82,6 +82,8 @@ Bisnis perlu WhatsApp CRM atau helpdesk jika:
 
 Jika masih kecil, mulai dari [WhatsApp Business Web](/blog/whatsapp-business-web/) dan quick replies. Jika sudah ramai, naik ke CRM atau helpdesk.
 
+Jika sedang membandingkan platform CRM dan inbox seperti Cekat.ai, respond.io, atau SleekFlow, baca juga [alternatif AI chatbot WhatsApp di Indonesia](/blog/alternatif-ai-chatbot-whatsapp-indonesia/).
+
 ## Kapan perlu bantuan merapikan support?
 
 Jika chat pelanggan mulai tersebar, komplain sulit dilacak, atau follow-up sering lupa, bisnis perlu sistem yang lebih rapi daripada inbox biasa.

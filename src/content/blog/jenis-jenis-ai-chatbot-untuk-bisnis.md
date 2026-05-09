@@ -19,6 +19,8 @@ Jika kebutuhanmu hanya menjawab pertanyaan umum, chatbot sederhana bisa cukup. J
 
 Panduan ini membantumu memahami pilihan utamanya sebelum menentukan arah implementasi.
 
+Jika kamu sedang membandingkan vendor seperti Cekat.ai, respond.io, SleekFlow, Halo AI, atau BalesOtomatis, baca juga [alternatif AI chatbot WhatsApp di Indonesia](/blog/alternatif-ai-chatbot-whatsapp-indonesia/).
+
 ## 1. Rule-based chatbot
 
 Rule-based chatbot bekerja dengan aturan yang sudah ditentukan. Misalnya:

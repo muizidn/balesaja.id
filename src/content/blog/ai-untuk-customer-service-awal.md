@@ -19,6 +19,8 @@ Kalau tujuanmu adalah membuat bot dari nol, lanjutkan juga ke [cara membuat bot 
 
 Jika masih memilih pendekatan teknis, lihat [jenis-jenis AI chatbot untuk bisnis](/blog/jenis-jenis-ai-chatbot-untuk-bisnis/) agar lebih mudah membandingkan rule-based, n8n, custom implementation, natural language, dan hybrid.
 
+Untuk contoh penerapan yang lebih spesifik, kamu bisa membaca panduan [CS AI untuk bisnis UMKM](/blog/cs-ai-untuk-bisnis-umkm/), [CS AI murah untuk online shop](/blog/cs-ai-murah-untuk-online-shop/), [CS AI murah untuk jasa travel](/blog/cs-ai-murah-untuk-jasa-travel/), dan [CS AI murah untuk bisnis umroh](/blog/cs-ai-murah-untuk-bisnis-umroh/).
+
 ## Apa yang dimaksud customer service awal?
 
 Customer service awal adalah tahap ketika pelanggan baru pertama kali menghubungi bisnis atau baru menyampaikan kebutuhan awal.

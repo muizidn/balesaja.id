@@ -15,6 +15,10 @@ Jika kamu masih merapikan fondasinya, mulai dari [WhatsApp untuk customer servic
 
 Kalau kamu masih bingung harus memakai menu sederhana, n8n, custom development, atau AI yang memahami bahasa bebas, baca juga [jenis-jenis AI chatbot untuk bisnis](/blog/jenis-jenis-ai-chatbot-untuk-bisnis/).
 
+Untuk contoh per industri, lihat [CS AI murah untuk jasa travel](/blog/cs-ai-murah-untuk-jasa-travel/) dan [CS AI murah untuk bisnis umroh](/blog/cs-ai-murah-untuk-bisnis-umroh/).
+
+Jika kamu sudah masuk tahap membandingkan vendor, lihat [alternatif AI chatbot WhatsApp di Indonesia](/blog/alternatif-ai-chatbot-whatsapp-indonesia/).
+
 ## Apa itu chatbot WhatsApp?
 
 Chatbot WhatsApp adalah sistem otomatis yang merespons pesan pelanggan melalui WhatsApp. Responsnya bisa berbentuk menu sederhana, jawaban berbasis kata kunci, alur tanya jawab, atau percakapan yang dibantu AI.
