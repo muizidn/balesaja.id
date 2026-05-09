@@ -23,6 +23,8 @@ Untuk contoh penerapan yang lebih spesifik, kamu bisa membaca panduan [CS AI unt
 
 Jika sumber chat paling banyak berasal dari komentar atau DM social media, baca juga [automation reply social media](/blog/automation-reply-social-media/).
 
+Untuk aturan perilaku AI saat menyapa, menjawab pertanyaan, menghadapi komplain, dan meneruskan chat ke admin, baca [panduan AI menjawab pelanggan](/blog/panduan-ai-menjawab-pelanggan/).
+
 ## Apa yang dimaksud customer service awal?
 
 Customer service awal adalah tahap ketika pelanggan baru pertama kali menghubungi bisnis atau baru menyampaikan kebutuhan awal.
@@ -111,6 +113,8 @@ Ada beberapa prinsip penting:
 **Batasi sumber jawaban.** AI sebaiknya menjawab berdasarkan informasi resmi bisnis, bukan mengarang.
 
 **Gunakan fallback.** Jika AI tidak yakin, arahkan ke admin.
+
+**Transparan sejak awal.** AI tidak perlu berpura-pura menjadi manusia. Penjelasannya bisa sederhana, misalnya pelanggan sedang dibantu asisten otomatis sebelum admin masuk jika dibutuhkan. Detailnya ada di [kenapa AI tidak boleh berpura-pura jadi manusia](/blog/ai-tidak-boleh-berpura-pura-jadi-manusia/).
 
 **Tulis gaya bahasa.** Tentukan apakah brand menggunakan bahasa formal, santai, atau campuran.
 

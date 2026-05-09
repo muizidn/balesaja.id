@@ -15,11 +15,15 @@ Jika kamu masih merapikan fondasinya, mulai dari [WhatsApp untuk customer servic
 
 Kalau kamu masih bingung harus memakai menu sederhana, n8n, custom development, atau AI yang memahami bahasa bebas, baca juga [jenis-jenis AI chatbot untuk bisnis](/blog/jenis-jenis-ai-chatbot-untuk-bisnis/).
 
+Jika chatbot akan menjawab pelanggan secara otomatis, siapkan juga standar perilakunya lewat [panduan AI menjawab pelanggan](/blog/panduan-ai-menjawab-pelanggan/).
+
 Untuk contoh per industri, lihat [CS AI murah untuk jasa travel](/blog/cs-ai-murah-untuk-jasa-travel/) dan [CS AI murah untuk bisnis umroh](/blog/cs-ai-murah-untuk-bisnis-umroh/).
 
 Jika chatbot akan dipakai untuk leads dari social media, lihat [customer journey dari social media ke WhatsApp](/blog/customer-journey-social-media-ke-whatsapp/).
 
 Jika kamu sudah masuk tahap membandingkan vendor, lihat [alternatif AI chatbot WhatsApp di Indonesia](/blog/alternatif-ai-chatbot-whatsapp-indonesia/).
+
+Untuk inspirasi yang lebih mudah dieksekusi, lihat [15 ide otomatisasi customer service WhatsApp](/blog/listicle-ide-otomatisasi-customer-service-whatsapp/) dan [9 tanda bisnis perlu CS AI](/blog/listicle-tanda-bisnis-perlu-cs-ai/).
 
 ## Apa itu chatbot WhatsApp?
 
@@ -105,6 +109,8 @@ Automation yang efektif bukan hanya soal membalas cepat. Ada beberapa prinsip pe
 **Sediakan jalan ke admin.** Selalu beri opsi “bicara dengan admin” atau handover ketika pelanggan tidak menemukan jawaban.
 
 **Jangan pura-pura menjadi manusia.** Lebih baik transparan bahwa pelanggan sedang dibantu asisten otomatis untuk mempercepat respons.
+
+Kalau ingin menulis kalimat transparansi yang tetap nyaman dibaca pelanggan, lihat [panduan AI tidak berpura-pura jadi manusia](/blog/ai-tidak-boleh-berpura-pura-jadi-manusia/).
 
 **Simpan konteks.** Ketika percakapan dipindahkan ke agen, admin sebaiknya sudah melihat ringkasan kebutuhan pelanggan.
 

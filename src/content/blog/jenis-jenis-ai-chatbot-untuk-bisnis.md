@@ -2,6 +2,7 @@
 title: 'Jenis-Jenis AI Chatbot untuk Bisnis: Rule-Based, n8n, Custom, dan Natural Language'
 description: 'Panduan memilih jenis AI chatbot yang cocok untuk bisnis, mulai dari rule-based, n8n automation, custom implementation, sampai chatbot natural language.'
 pubDate: 'May 09 2026'
+updatedDate: 'May 10 2026'
 heroImage: '../../assets/blog-placeholder-1.jpg'
 category: 'AI Chatbot'
 tags: ['ai chatbot', 'automation', 'customer service', 'whatsapp']
@@ -27,6 +28,8 @@ Jika kebutuhanmu hanya menjawab pertanyaan umum, chatbot sederhana bisa cukup. J
 Panduan ini membantumu memahami pilihan utamanya sebelum menentukan arah implementasi.
 
 Jika kamu sedang membandingkan vendor seperti Cekat.ai, respond.io, SleekFlow, Halo AI, atau BalesOtomatis, baca juga [alternatif AI chatbot WhatsApp di Indonesia](/blog/alternatif-ai-chatbot-whatsapp-indonesia/).
+
+Jika masih bingung memilih tools, lihat [10 jenis tools untuk membangun CS AI WhatsApp](/blog/listicle-tools-untuk-cs-ai-whatsapp/).
 
 ## 1. Rule-based chatbot
 

@@ -88,6 +88,8 @@ Automation bisa membantu:
 
 Untuk balasan komentar dan DM, baca [automation reply social media](/blog/automation-reply-social-media/).
 
+Jika ingin memperbaiki proses closing di WhatsApp, baca juga [12 cara closing leads dari WhatsApp](/blog/listicle-cara-closing-leads-whatsapp/) dan [11 kesalahan yang membuat closing WhatsApp gagal](/blog/listicle-kesalahan-whatsapp-closing/).
+
 ## Bagaimana Balesaja membantu?
 
 Balesaja bisa membantu menyusun sistem dari social media ke WhatsApp closing:

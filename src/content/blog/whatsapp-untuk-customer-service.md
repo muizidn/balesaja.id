@@ -17,6 +17,8 @@ Jika bisnis kamu masih kecil atau ingin mulai murah, lihat juga [CS AI untuk bis
 
 Jika banyak chat datang dari Instagram, TikTok, atau iklan social media, baca juga [social media management ke WhatsApp](/blog/social-media-management-ke-whatsapp/) agar alur dari konten ke customer service lebih rapi.
 
+Jika sebagian respons akan dibantu AI, gunakan [panduan AI menjawab pelanggan](/blog/panduan-ai-menjawab-pelanggan/) agar sapaan, jawaban, komplain, dan handover tetap konsisten.
+
 ## Kenapa WhatsApp penting untuk customer service?
 
 Pelanggan memilih WhatsApp karena cepat dan familiar. Mereka bisa bertanya tanpa membuka website, mengirim bukti pembayaran, mengirim foto masalah produk, atau menanyakan status pesanan langsung dari ponsel.
@@ -83,6 +85,8 @@ Template bisa dibuat untuk:
 
 Jika memakai chatbot, template ini bisa menjadi dasar jawaban otomatis.
 
+Untuk contoh sapaan yang lebih rapi, baca [sapaan AI customer service](/blog/sapaan-ai-customer-service/).
+
 ## Pisahkan pesan sales dan support
 
 Banyak bisnis mencampur semua pesan ke satu admin: calon pembeli, pelanggan lama, komplain, reseller, dan vendor. Akibatnya, pesan penting mudah tenggelam.
@@ -108,6 +112,8 @@ Customer service WhatsApp yang baik tidak menahan pelanggan terlalu lama di otom
 - Nilai transaksi besar
 
 Handover sebaiknya membawa konteks. Admin perlu melihat ringkasan percakapan, nama pelanggan, kategori masalah, dan data penting yang sudah dikumpulkan chatbot.
+
+Panduan teknisnya bisa dilanjutkan ke [handover AI ke admin](/blog/handover-ai-ke-admin/), terutama jika kamu ingin admin tidak perlu membaca chat dari awal setiap kali mengambil alih.
 
 ## Pantau performa customer service WhatsApp
 

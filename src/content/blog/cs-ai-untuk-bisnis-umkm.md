@@ -76,6 +76,8 @@ Pertimbangkan CS AI jika:
 
 Jika ingin memahami pilihan teknisnya, baca [jenis-jenis AI chatbot untuk bisnis](/blog/jenis-jenis-ai-chatbot-untuk-bisnis/).
 
+Jika budget masih terbatas, baca juga [7 hal yang harus ada dalam paket CS AI murah](/blog/listicle-paket-cs-ai-murah/).
+
 ## Tips agar CS AI tetap terasa manusiawi
 
 Gunakan bahasa yang sederhana. Jangan membuat pelanggan merasa sedang berbicara dengan mesin yang kaku.

@@ -76,6 +76,8 @@ Untuk memahaminya, lihat alasan handover. Misalnya pelanggan diteruskan karena k
 
 Jika banyak handover terjadi karena pertanyaan umum tidak dikenali, perbaiki [template alur chatbot WhatsApp](/blog/template-alur-chatbot-whatsapp/).
 
+Jika handover sering terlambat, cek juga [panduan handover AI ke admin](/blog/handover-ai-ke-admin/) agar alasan eskalasi dan ringkasan percakapan lebih jelas.
+
 ## 6. Percakapan yang tidak selesai
 
 Percakapan tidak selesai terjadi ketika pelanggan berhenti membalas sebelum mendapatkan jawaban atau sebelum proses selesai.
@@ -115,6 +117,8 @@ Contohnya:
 - Cara order
 
 Topik ini bisa menjadi bahan untuk memperbaiki FAQ, membuat template baru, dan melatih AI agar lebih akurat. Untuk konsep AI-nya, baca [AI untuk customer service awal](/blog/ai-untuk-customer-service-awal/).
+
+Untuk menerjemahkan topik pertanyaan menjadi aturan jawaban, lanjutkan ke [cara AI menjawab pertanyaan pelanggan](/blog/cara-ai-menjawab-pertanyaan-pelanggan/).
 
 ## Cara membaca metrik secara sehat
 
