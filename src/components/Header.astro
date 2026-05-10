@@ -5,7 +5,7 @@ import HeaderLink from './HeaderLink.astro';
 <header class="nav">
 	<div class="site-shell nav-inner">
 		<a class="brand" href="/" aria-label="Balesaja.id home">
-			<span class="brand-mark">B</span>
+			<img src="/logo.jpeg" alt="Balesaja.id Logo" class="brand-logo" />
 			<span>balesaja.id</span>
 		</a>
 		<nav class="nav-links">
@@ -46,7 +46,7 @@ import HeaderLink from './HeaderLink.astro';
 	.brand {
 		display: inline-flex;
 		align-items: center;
-		gap: 10px;
+		gap: 12px;
 		color: #0f172a;
 		font-size: 1.3rem;
 		font-weight: 800;
@@ -54,17 +54,11 @@ import HeaderLink from './HeaderLink.astro';
 		letter-spacing: -0.02em;
 	}
 
-	.brand-mark {
-		display: grid;
-		width: 36px;
-		height: 36px;
-		place-items: center;
-		border-radius: 10px;
-		background: linear-gradient(135deg, #2563eb, #60a5fa);
-		color: #ffffff;
-		font-size: 1.1rem;
-		font-weight: 900;
-		box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+	.brand-logo {
+		width: 40px;
+		height: 40px;
+		object-fit: contain;
+		border-radius: 8px;
 	}
 
 	.nav-links {

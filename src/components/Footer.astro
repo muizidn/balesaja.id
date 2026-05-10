@@ -5,7 +5,7 @@ const today = new Date();
 <footer class="footer">
 	<div class="site-shell footer-inner">
 		<div class="brand">
-			<span class="brand-mark">B</span>
+			<img src="/logo.jpeg" alt="Balesaja.id Logo" class="brand-logo" />
 			<span>balesaja.id</span>
 		</div>
 		<div class="footer-contact">
@@ -58,22 +58,17 @@ const today = new Date();
 	.brand {
 		display: flex;
 		align-items: center;
-		gap: 8px;
+		gap: 10px;
 		color: #0f172a;
 		font-weight: 800;
 		text-decoration: none;
 	}
 
-	.brand-mark {
-		display: grid;
-		width: 28px;
-		height: 28px;
-		place-items: center;
+	.brand-logo {
+		width: 32px;
+		height: 32px;
+		object-fit: contain;
 		border-radius: 6px;
-		background: linear-gradient(135deg, #2563eb, #60a5fa);
-		color: #ffffff;
-		font-size: 0.9rem;
-		font-weight: 900;
 	}
 
 	.footer-links {
