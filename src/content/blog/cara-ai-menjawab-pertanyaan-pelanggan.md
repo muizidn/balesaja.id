@@ -1,7 +1,5 @@
 ---
-title: 'Cara AI Menjawab Pertanyaan Pelanggan agar Jelas dan Tidak Menyesatkan'
 description: 'Panduan cara AI customer service menjawab pertanyaan pelanggan dengan data resmi, batasan yang jelas, dan fallback ke admin.'
-pubDate: 'May 10 2026'
 heroImage: '../../assets/blog-placeholder-3.jpg'
 category: 'AI Customer Service'
 tags: ['ai menjawab pelanggan', 'ai customer service', 'faq ai']
@@ -9,6 +7,9 @@ ctaTitle: 'Ingin AI menjawab sesuai data bisnis?'
 ctaDescription: 'Balesaja bisa membantu menyiapkan sumber jawaban, batasan, fallback, dan SOP agar AI tidak menjawab sembarangan.'
 ctaLink: '/'
 ctaButton: 'Diskusi dengan Balesaja'
+title: Cara AI Menjawab Pertanyaan Pelanggan agar Jelas dan Tidak Menyesatkan
+slug: cara-ai-menjawab-pertanyaan-pelanggan
+pubDate: 'May 12, 2026'
 ---
 
 AI customer service harus menjawab dengan jelas, tetapi tidak boleh asal percaya diri. Jawaban yang cepat tidak berguna jika informasinya salah.
