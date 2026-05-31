@@ -17,6 +17,8 @@ Sapaan AI customer service harus ramah, jelas, dan transparan.
 
 Topik ini bagian dari [panduan AI menjawab pelanggan](/blog/panduan-ai-menjawab-pelanggan/), terutama untuk memastikan AI tidak hanya cepat membalas, tetapi juga memberi arah yang jelas sejak pesan pertama.
 
+Untuk menguji greeting, penggunaan nama pelanggan, jam operasional, dan opsi admin, lanjutkan ke [evaluasi sapaan awal CS AI](/blog/evaluasi-sapaan-awal-cs-ai/).
+
 ## Prinsip sapaan yang baik
 
 Sapaan AI sebaiknya:

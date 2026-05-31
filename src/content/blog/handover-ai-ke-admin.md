@@ -17,6 +17,8 @@ AI yang baik bukan AI yang menjawab semuanya. AI yang baik tahu kapan harus berh
 
 Jika kamu belum membuat aturan dasarnya, baca dulu [panduan AI menjawab pelanggan](/blog/panduan-ai-menjawab-pelanggan/) agar trigger handover selaras dengan sapaan, jawaban FAQ, komplain, dan objection handling.
 
+Untuk menguji alur secara bertahap sebelum digunakan pelanggan, buka [panduan evaluasi sistem CS AI](/blog/panduan-evaluasi-sistem-cs-ai/).
+
 ## Kapan AI harus handover?
 
 AI harus handover jika:

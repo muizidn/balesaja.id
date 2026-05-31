@@ -17,6 +17,8 @@ Tanpa aturan, AI bisa terlihat canggih tetapi berisiko: jawabannya terlalu perca
 
 Gunakan panduan ini sebagai dasar untuk membuat SOP perilaku AI saat menjawab pelanggan.
 
+Setelah aturan dasarnya disusun, gunakan [panduan evaluasi sistem CS AI](/blog/panduan-evaluasi-sistem-cs-ai/) untuk menguji sapaan, data produk, keluhan, objection handling, dan handover dengan skenario praktis.
+
 ## Prinsip utama AI saat menjawab pelanggan
 
 AI harus:

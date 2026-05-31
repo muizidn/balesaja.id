@@ -24,6 +24,8 @@ AI bisa membantu memberi respons awal, tetapi harus tetap sopan dan tidak memaks
 
 Jika kamu sedang menyusun aturan AI secara menyeluruh, mulai dari [panduan AI menjawab pelanggan](/blog/panduan-ai-menjawab-pelanggan/) lalu gunakan artikel ini untuk bagian keberatan sebelum closing.
 
+Untuk menguji keberatan harga, penolakan, perbandingan kompetitor, dan permintaan diskon, lanjutkan ke [evaluasi objection handling CS AI](/blog/evaluasi-objection-handling-cs-ai/).
+
 ## Prinsip objection handling dengan AI
 
 AI sebaiknya:

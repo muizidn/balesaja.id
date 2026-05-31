@@ -17,6 +17,8 @@ Peran AI saat ada keluhan sebaiknya adalah memberi respons awal, mengumpulkan ko
 
 Panduan ini adalah bagian dari [panduan AI menjawab pelanggan](/blog/panduan-ai-menjawab-pelanggan/) untuk kasus yang butuh empati, prioritas, dan batasan yang lebih hati-hati.
 
+Setelah SOP dibuat, uji responsnya dengan skenario praktis di [evaluasi CS AI menangani keluhan pelanggan](/blog/evaluasi-handling-keluhan-cs-ai/).
+
 ## Hal pertama: akui keluhan pelanggan
 
 Jangan langsung membantah atau memberi menu.

@@ -18,6 +18,8 @@ Karena itu, AI perlu aturan tentang sumber data, batasan jawaban, dan kapan haru
 
 Bagian ini melengkapi [panduan AI menjawab pelanggan](/blog/panduan-ai-menjawab-pelanggan/) untuk FAQ, pertanyaan produk, harga, stok, dan informasi operasional.
 
+Untuk menguji apakah sistem benar-benar membaca data resmi dan tidak mengarang stok atau katalog, gunakan [evaluasi CS AI membaca data stok, harga, dan katalog](/blog/evaluasi-data-stok-katalog-cs-ai/).
+
 ## Gunakan sumber informasi resmi
 
 AI sebaiknya menjawab berdasarkan:
