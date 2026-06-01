@@ -20,6 +20,8 @@ Bagian ini melengkapi [panduan AI menjawab pelanggan](/blog/panduan-ai-menjawab-
 
 Untuk menguji apakah sistem benar-benar membaca data resmi dan tidak mengarang stok atau katalog, gunakan [evaluasi CS AI membaca data stok, harga, dan katalog](/blog/evaluasi-data-stok-katalog-cs-ai/).
 
+![Image 1](/blog/greeting.png)
+
 ## Gunakan sumber informasi resmi
 
 AI sebaiknya menjawab berdasarkan:
@@ -35,6 +37,8 @@ AI sebaiknya menjawab berdasarkan:
 Jika data tidak tersedia, AI tidak boleh mengarang.
 
 ## Jawaban harus singkat dan actionable
+
+![Image 2](/blog/greeting2.png)
 
 Jawaban yang baik membantu pelanggan tahu langkah berikutnya.
 

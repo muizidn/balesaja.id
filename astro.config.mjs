@@ -43,6 +43,9 @@ export default defineConfig({
   }),
   
   vite: {
+    server: {
+      allowedHosts: ['t470'],
+    },
     ssr: {
         external: ['node:fs', 'node:path', 'node:process'],
     },
