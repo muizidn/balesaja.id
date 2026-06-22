@@ -22,6 +22,8 @@ Banyak pemilik travel umroh ingin memakai CS AI, tetapi masih bertanya-tanya: na
 
 Artikel ini menampilkan contoh percakapan CS AI umroh yang sering terjadi di WhatsApp, lalu mengevaluasi jawabannya. Tujuannya agar visitor bisa membayangkan bentuk CS AI yang rapi, sekaligus tahu bagian mana yang harus tetap dijaga oleh admin manusia.
 
+Jika ingin melihat panduan yang lebih lengkap tentang alur, kasus umum, dan tips implementasinya, baca juga [CS AI murah untuk bisnis umroh](/blog/cs-ai-murah-untuk-bisnis-umroh/).
+
 ## Gambaran percakapan
 
 Dalam contoh ini, calon jamaah menanyakan:

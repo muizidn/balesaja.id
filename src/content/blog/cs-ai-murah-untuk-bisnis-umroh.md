@@ -25,6 +25,8 @@ CS AI murah untuk bisnis umroh bisa membantu menjawab pertanyaan awal dengan cep
 
 Artikel ini bisa dipakai sebagai cluster awal CS AI Umroh: daftar kasus umum, contoh alur, tips follow-up, dan batas mana yang harus masuk admin manusia.
 
+Untuk melihat bentuk chat yang lebih konkret, baca juga [contoh percakapan CS AI umroh dan evaluasinya](/blog/contoh-percakapan-cs-ai-umroh-dan-evaluasi/).
+
 ## Pertanyaan yang sering masuk dari calon jamaah
 
 Contoh pertanyaan:
