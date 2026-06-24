@@ -1,11 +1,12 @@
 ---
+import { SITE_LANG } from '../consts';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 ---
 
 <!doctype html>
-<html lang="id">
+<html lang={SITE_LANG}>
 	<head>
 		<BaseHead title="Kebijakan Privasi | Balesaja.id" description="Kebijakan privasi penggunaan layanan Balesaja.id" />
 		<style>

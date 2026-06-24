@@ -1,6 +1,7 @@
 ---
 import type { MarkdownHeading } from 'astro';
 import type { CollectionEntry } from 'astro:content';
+import { SITE_LANG } from '../consts';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
@@ -85,7 +86,7 @@ const breadcrumbs = [
 ];
 ---
 
-<html lang="id" style="scroll-behavior: smooth;">
+<html lang={SITE_LANG} style="scroll-behavior: smooth;">
 	<head>
 		<BaseHead title={title} description={description} image={ogImage} canonical={canonical} noindex={noindex} breadcrumbs={breadcrumbs} />
 
